@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "xrp-donations": [
+        "dist/xrp-donations"
+      ],
+      "xrp-donations/*": [
+        "dist/xrp-donations/*"
+      ]
+    }
   }
 }
