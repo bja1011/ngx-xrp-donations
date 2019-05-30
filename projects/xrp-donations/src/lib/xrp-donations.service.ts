@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
-import { fromEvent, Subject } from 'rxjs';
+import { Subject } from 'rxjs';
 import { webSocket } from 'rxjs/webSocket';
-import { WebSocketSubject } from 'rxjs/src/internal/observable/dom/WebSocketSubject';
 
 const rippleServer = 'wss://s2.ripple.com:443';
 
