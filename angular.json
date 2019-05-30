@@ -29,7 +29,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -129,7 +130,9 @@
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
             "tsConfig": "projects/xrp-donations/tsconfig.lib.json",
-            "project": "projects/xrp-donations/ng-package.json"
+            "project": "projects/xrp-donations/ng-package.json",
+            "scripts": [
+            ]
           }
         },
         "test": {
