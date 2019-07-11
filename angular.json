@@ -119,7 +119,7 @@
         }
       }
     },
-    "xrp-donations": {
+    "ngx-xrp-donations": {
       "projectType": "library",
       "root": "projects/xrp-donations",
       "sourceRoot": "projects/xrp-donations/src",
@@ -129,7 +129,7 @@
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
             "tsConfig": "projects/xrp-donations/tsconfig.lib.json",
-            "project": "projects/xrp-donations/ng-package.json",
+            "project": "projects/xrp-donations/ng-package.json"
           }
         },
         "test": {

@@ -1,24 +1,13 @@
-# XrpDonations
+# XRP Donations
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
+Angular module for displaying XRP donation address and wallet balance.
 
-## Code scaffolding
-
-Run `ng generate component component-name --project xrp-donations` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project xrp-donations`.
-> Note: Don't forget to add `--project xrp-donations` or else it will be added to the default project in your `angular.json` file. 
+# How to use
+Import XRPDonationsModule. Use component `<ngx-xrp-donations wallet='wallet_address''></ngx-xrp-donations>`
+ 
+# Develop
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
 
 ## Build
 
-Run `ng build xrp-donations` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build xrp-donations`, go to the dist folder `cd dist/xrp-donations` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test xrp-donations` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
